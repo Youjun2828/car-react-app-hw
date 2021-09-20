@@ -1,0 +1,9 @@
+.return-link {
+  text-decoration: underline;
+  margin-inline-end: 0;
+}
+
+.return-link:hover,
+.return-link:focus {
+  text-decoration: none;
+}

@@ -1,0 +1,50 @@
+.drivers-list {
+  list-style: none;
+  padding: 0 15px;
+}
+
+.drivers-list-item {
+  padding: 15px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  margin-block-end: 15px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .drivers-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+  .drivers-list-item {
+    flex-basis: calc(33.33% - 10px);
+    margin-inline-end: 15px;
+  }
+  .drivers-list-item:nth-child(3n) {
+    margin-inline-end: 0;
+  }
+}
+
+.avatar {
+  max-width: 100%;
+  height: auto;
+}
+
+.delete-btn,
+.update-link {
+  border: 1px solid #000;
+  padding: 5px 10px;
+  background-color: #ff0;
+}
+
+.delete-btn {
+  background-color: #f00;
+  border-color: #f00;
+  color: #fff;
+  font-size: 1rem;
+}
+/* 
+.section-heading {
+  margin-inline-start: 15px;
+} */
